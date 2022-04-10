@@ -1,5 +1,5 @@
 package com.tech.one;
-public class JavaClassTwo {
+public class   {
 
 	public static void main(String[]args){
 		//practiceForloop();

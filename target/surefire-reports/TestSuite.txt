@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 180.179 s <<< FAILURE! - in TestSuite
+feature(upskill.runners.RunnerClass)  Time elapsed: 109.354 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.JavascriptException: javascript error: Unable to find owning document
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-Q6144C3', ip: '192.168.1.237', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Sana\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54655}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81a584410f6d6de2f8777228674c14db
+Caused by: org.openqa.selenium.JavascriptException: 
+javascript error: Unable to find owning document
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-Q6144C3', ip: '192.168.1.237', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Sana\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54655}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81a584410f6d6de2f8777228674c14db
+
+feature(upskill.runners.RunnerClass)  Time elapsed: 14.363 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-Q6144C3', ip: '192.168.1.237', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Sana\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa119001ae1ea938596449040ad9c00
+*** Element info: {Using=tag name, value=option}
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-Q6144C3', ip: '192.168.1.237', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Sana\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa119001ae1ea938596449040ad9c00
+*** Element info: {Using=tag name, value=option}
+
